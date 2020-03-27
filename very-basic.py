@@ -46,13 +46,13 @@ Multi-line comment..
 
 # normalArgs("Pedro")
 
-def normalArgs(name, age, *args, **kwargs):
-    # This function takes any number of args after the required ones
-    # (*args) and also takes any number of keyword arguments after the *args
-    kwa = ""
-    for arg in kwargs.values():
-        kwa += arg
+# def normalArgs(name, age, *args, **kwargs):
+#     # This function takes any number of args after the required ones
+#     # (*args) and also takes any number of keyword arguments after the *args
+#     kwa = ""
+#     for arg in kwargs.values():
+#         kwa += arg
 
-    print("{} is {} years old, lives in {} and stinks like {}".format(name, age, args[0], kwa))
+#     print("{} is {} years old, lives in {} and stinks like {}".format(name, age, args[0], kwa))
 
-normalArgs("Steve", 21, "Mars", smell = "shit")
+# normalArgs("Steve", 21, "Mars", smell = "onions")
